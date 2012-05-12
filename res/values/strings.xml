@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Agenda Cultural Buenos Aires</string>
+    <string name="search">Buscar</string>
+    <string name="refresh">Actualizar</string>
+    <string name="favorites">Favoritos</string>
+    <string name="share">Compartir</string>
+
+</resources>

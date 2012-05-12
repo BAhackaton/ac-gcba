@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2011 Jake Wharton
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+
+    <!-- <style name="myTheme" parent="@style/Theme.Sherlock.Light"> -->
+    <!-- If you want to use the default ViewPagerIndicator-styles, use the following: -->
+    <!-- <item name="vpiTabPageIndicatorStyle">@style/Widget.TabPageIndicator</item> -->
+    <!-- <item name="vpiTabTextStyle">@style/Widget.TabPageIndicator.Text</item> -->
+    <!-- </style> -->
+
+    <style name="StyledIndicators" parent="@style/Theme.Sherlock.Light">
+        <item name="vpiTitlePageIndicatorStyle">@style/CustomTitlePageIndicator</item>
+    </style>
+
+    <style name="CustomTitlePageIndicator">
+        <item name="android:background">#FFD200</item>
+        <item name="footerColor">#3D3D3D</item>
+        <item name="footerLineHeight">2dp</item>
+        <item name="footerIndicatorHeight">3dp</item>
+        <item name="footerIndicatorStyle">underline</item>
+        <item name="textColor">#5C5C5C</item>
+        <item name="selectedColor">#1F1F1F</item>
+        <item name="selectedBold">true</item>
+    </style>
+
+</resources>
